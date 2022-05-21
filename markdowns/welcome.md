@@ -12,7 +12,7 @@ void main() {
 
 ### Variáveis e constantes
 Dart é uma linguagem fortemente tipada
-As variáveis podem ser um ou mais caracteres e números inteiros ou de ponto flutuante  
+As variáveis podem ser um ou mais caracteres, números inteiros ou de ponto flutuante e booleanos como verdadeiro e falso.
 
 ```dart runnable
 void main() {
@@ -20,6 +20,7 @@ void main() {
     String myString = "Hello World";
     int myNumber = 2;
     double myFloat = 2.5;
+    bool myBool;
     var myVar = 1;
 
     print(myString);
