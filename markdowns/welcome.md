@@ -68,7 +68,7 @@ void main() {
     const String myString = "Hello World";
     var myVar = "Outra string";
     
-    print(myVar.runtimeType)
+    print(myVar.runtimeType);
 }
 
 ```
