@@ -59,3 +59,16 @@ void main() {
 }
 
 ```
+
+É difícil de acontecer, mas caso exista alguma variável que não saibamos o tipo, basta usar o método runtimeType
+
+```dart runnable
+void main() {
+    
+    const String myString = "Hello World";
+    var myVar = "Outra string";
+    
+    print(myVar.runtimeType)
+}
+
+```
