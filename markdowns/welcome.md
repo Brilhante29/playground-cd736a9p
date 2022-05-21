@@ -57,7 +57,7 @@ void main() {
     const int myNumber = 2;
     const double myFloat = 2.5;
    
-    var myNewVar = myNumber + myFloat
+    var myNewVar = myNumber + myFloat;
 
     print(myNewVar);
 }
