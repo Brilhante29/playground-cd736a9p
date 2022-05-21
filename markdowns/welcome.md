@@ -60,6 +60,7 @@ void main() {
     var myNewVar = myNumber + myFloat;
 
     print(myNewVar);
+    print(myNumber * 2)
 }
 
 ```
