@@ -28,7 +28,7 @@ void main() {
 ```
 
 Constantes são variáveis que teráo seus valores fixos, ou seja não poderá ter seu valor mudado.  
-Observe que o código abaixo irá falar, pois tentei mudar o valor de myFloat mesmo ele sendo uma constante
+Observe que o código abaixo irá falar, pois tentei mudar o valor de myFloat mesmo ele sendo uma constante.
 
 ```dart runnable
 void main() {
@@ -43,7 +43,7 @@ void main() {
 }
 ```
 
-Em dart é possível efetuar operações tambem
+Em dart é possível efetuar operações tambem.
 
 ```dart runnable
 void main() {
@@ -57,10 +57,9 @@ void main() {
     print(myNewVar);
     print(myNumber * 2);
 }
-
 ```
 
-É difícil de acontecer, mas caso exista alguma variável que não saibamos o tipo, basta usar o método runtimeType
+É difícil de acontecer, mas caso exista alguma variável que não saibamos o tipo, basta usar o método runtimeType.
 
 ```dart runnable
 void main() {
@@ -71,4 +70,33 @@ void main() {
     print(myVar.runtimeType);
 }
 
+```
+
+Em dart existem alguns métodos interessantes de se conhecer além do runtimeType. 
+São eles roubdToDouble(), substring(arg0*, arg1*), toUpperCase(), padRight(),  lenght(), abs()
+```dart runnable
+void main() {
+    
+    const String myString = "Hello World";
+    double myDouble = 2.5987;
+    var myVar = "Outra string";
+    
+
+    print(myVar);
+    print(myVar.toUpperCase());
+    print(myDouble.roubdToDouble());
+}
+
+```
+
+### Coleções em dart
+
+```dart runnable
+void main() {
+    
+    const String myString = "Hello World";
+    var myVar = "Outra string";
+    
+    print(myVar.runtimeType);
+}
 ```
