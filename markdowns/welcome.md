@@ -4,7 +4,7 @@ This Basic template lets you get started quickly with a simple working example. 
 
 ```dart runnable
     void main() {
-        print("Hello world")
+        print("Hello world");
     }
 ```
 
