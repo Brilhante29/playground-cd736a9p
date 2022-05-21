@@ -19,9 +19,9 @@ As variáveis podem ser números inteiros
 ```dart runnable
 
 void main() {
-
-    int myNumber = 2
-    float myFloat = 2.5
+    
+    int myNumber = 2;
+    float myFloat = 2.5;
     print(myFloat);
 }
 
