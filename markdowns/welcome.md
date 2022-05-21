@@ -20,9 +20,11 @@ As variáveis podem ser números inteiros
 
 void main() {
     
+    String myString = "Hello World";
     int myNumber = 2;
     double myFloat = 2.5;
-    print(myFloat);
+
+    print(myString);
 }
 
 ```
