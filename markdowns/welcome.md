@@ -21,7 +21,7 @@ As variáveis podem ser números inteiros
 void main() {
     
     int myNumber = 2;
-    float myFloat = 2.5;
+    double myFloat = 2.5;
     print(myFloat);
 }
 
