@@ -1,9 +1,7 @@
 # Welcome!
 
 Primeiro Hello World com Dart
-
 ```dart runnable
-
 void main() {
    print("Hello world");
 }
@@ -17,7 +15,6 @@ Dart é uma linguagem fortemente tipada
 As variáveis podem ser um ou mais caracteres e números inteiros ou de ponto flutuante  
 
 ```dart runnable
-
 void main() {
     
     String myString = "Hello World";
@@ -27,13 +24,12 @@ void main() {
 
     print(myString);
 }
-
 ```
 
 Constantes são variáveis que teráo seus valores fixos, ou seja não poderá ter seu valor mudado.  
 Observe que o código abaixo irá falar, pois tentei mudar o valor de myFloat mesmo ele sendo uma constante
-```dart runnable
 
+```dart runnable
 void main() {
     
     const String myString = "Hello World";
@@ -44,13 +40,11 @@ void main() {
 
     print(myString);
 }
-
 ```
 
 Em dart é possível efetuar operações tambem
 
 ```dart runnable
-
 void main() {
     
     const String myString = "Hello World";
@@ -60,7 +54,7 @@ void main() {
     var myNewVar = myNumber + myFloat;
 
     print(myNewVar);
-    print(myNumber * 2)
+    print(myNumber * 2);
 }
 
 ```
