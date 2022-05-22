@@ -131,7 +131,7 @@ Algumas vezes pode ser preciso capturar os dados do usuário. Para tal, faremos 
 import 'dart:io';
 void main() {
     
-    stdout.write("Está chovendo? (s/N)");
+    print("Está chovendo? (s/N)");
     String? estaChovendo = stdin.readLineSync();
 
 }
