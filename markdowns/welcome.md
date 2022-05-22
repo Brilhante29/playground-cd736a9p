@@ -299,7 +299,7 @@ void main() {
     print(fruits);
 }
 ```
-
+No exemplo abaixo o código não irá rodar, pois temos um elemento dentro da nossa lista de inteiros que é uma string e essa é a função do nosso generics "<int>"
 ```dart runnable
 void main() {
     
