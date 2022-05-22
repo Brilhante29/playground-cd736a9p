@@ -215,7 +215,7 @@ void main() {
     
     
     print(lista);
-    print(lista[0])
+    print(lista[0]);
 }
 ```
 Para adicionar elementos em uma lista utiliza-se a função .add(), de acordo com o exemplo abaixo.
