@@ -85,7 +85,7 @@ void main() {
     print(myVar);
     print(myVar.toUpperCase());
     print(myVar.substring(0, 4));
-    print(myVar.padRight(2, 'oi'));
+    print(myVar.padRight(2, 'i'));
     print(myDouble.roundToDouble());
     print(myDouble.abs());
 
