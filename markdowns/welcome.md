@@ -73,7 +73,7 @@ void main() {
 ```
 
 Em dart existem alguns métodos interessantes de se conhecer além do runtimeType. 
-São eles roundToDouble(), substring(arg0*, arg1*), toUpperCase(), padRight(),  lenght(), abs()
+São eles roundToDouble(), substring(arg0*, arg1*), toUpperCase(), padRight(), abs()
 ```dart runnable
 void main() {
     
@@ -83,10 +83,9 @@ void main() {
     
 
     print(myVar);
-    print(myVar.lenght());
     print(myVar.toUpperCase());
     print(myVar.substring(0, 4));
-    print(myVar.padRight());
+    print(myVar.padRight(2, 'oi'));
     print(myDouble.roundToDouble());
     print(myDouble.abs());
 
