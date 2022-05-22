@@ -209,7 +209,7 @@ Listas
 ```dart runnable
 void main() {
     
-    List lista = ['Brazil', 'Argentina', 'Argélia']
+    List lista = ['Brazil', 'Argentina', 'Argélia'];
     
     
     print(lista);
@@ -219,7 +219,7 @@ Para adicionar elementos em uma lista
 ```dart runnable
 void main() {
     
-    List lista = ['Brazil', 'Argentina', 'Argélia']
+    List lista = ['Brazil', 'Argentina', 'Argélia'];
     lista.add('China');
     
     print(lista);
