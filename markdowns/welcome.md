@@ -282,10 +282,10 @@ No Dart, os maps são coleções não ordenadas de pares de valores-chave que de
 ```dart runnable
 void main() {
     
-    Map<int, string> fruits = {1: "Mango", 2:"Apple", 3:"Banana"};
-   
-    print('Keys: ${geekMap.keys} \nValues: ${geekMap.values}');
-    
+    Map<int, String> fruits = {1: "Mango", 2:"Apple", 3:"Banana"};
     print(fruits);
+    print('Keys: ${geekMap.keys} \nValues: ${geekMap.values}');
+    print('{$geekMap} length is ${geekMap.length}');
+
 }
 ```
