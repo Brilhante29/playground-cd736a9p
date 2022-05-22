@@ -129,6 +129,7 @@ void main() {
 Algumas vezes pode ser preciso capturar os dados do usuário. Para tal, faremos da forma abaixo.
 ```dart runnable
 import 'dart:io';
+
 void main() {
     
     print("Está chovendo? (s/N)");
@@ -136,6 +137,25 @@ void main() {
 
 }
 ```
+o comando não irá rodar pois estamos executando na forma de snippets, mas pelo replit será mais fácil rodar.
+
+### Nullsafety
+Em dart, quando o usuário irá executar a entrada de dados precisamos executar a verificação nula.
+Colocando um "?" após a tipagem, antes do nome da variável, como no exemplo supracitado, porém podemos querer fazer essa verificação ao declararmos variáveis.
+
+```dart runnable
+import 'dart:io';
+void main() {
+    
+   String? myString;
+   int? myInt;
+
+   myInt = 2
+   print(myInt);
+
+}
+```
+
 ### Coleções em dart
 
 ```dart runnable
