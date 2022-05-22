@@ -284,8 +284,8 @@ void main() {
     
     Map<int, String> fruits = {1: "Mango", 2:"Apple", 3:"Banana"};
     print(fruits);
-    print('Keys: ${geekMap.keys} \nValues: ${geekMap.values}');
-    print('{$geekMap} length is ${geekMap.length}');
+    print('Keys: ${fruits.keys} \nValues: ${fruits.values}');
+    print('{$fruits} length is ${fruits.length}');
 
 }
 ```
