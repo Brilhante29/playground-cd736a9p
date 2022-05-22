@@ -295,7 +295,7 @@ Em dart generics é algo amplamente utilizado quando lidamos com estruturas de d
 ```dart runnable
 void main() {
     
-    List<int> fruits = [1,2,3,4,5]
+    List<int> fruits = [1,2,3,4,5];
     print(fruits);
 }
 ```
@@ -303,7 +303,7 @@ void main() {
 ```dart runnable
 void main() {
     
-    List<int> fruits = [1,2,3,4,5, '1']
+    List<int> fruits = [1,2,3,4,5, '1'];
     print(fruits);
 }
 ```
