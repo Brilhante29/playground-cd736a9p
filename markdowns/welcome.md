@@ -206,6 +206,8 @@ void main()
 Coleções são tidas como estruturas de dados, alguns exemplos delas são: Listas, Maps e Sets.
 
 Listas
+
+Listas como o próprio nome diz são um conjunto de elementos ordenados por um índice.
 ```dart runnable
 void main() {
     
@@ -213,14 +215,26 @@ void main() {
     
     
     print(lista);
+    print(lista[0])
 }
 ```
-Para adicionar elementos em uma lista
+Para adicionar elementos em uma lista utiliza-se a função .add(), de acordo com o exemplo abaixo.
 ```dart runnable
 void main() {
     
     List lista = ['Brazil', 'Argentina', 'Argélia'];
     lista.add('China');
+    
+    print(lista);
+}
+```
+
+Para remover elementos de uma lista pelo índice utiliza-se a função .removeAt(), de acordo com o exemplo abaixo.
+```dart runnable
+void main() {
+    
+    List lista = ['Brazil', 'Argentina', 'Argélia'];
+    lista.removeAt(0);
     
     print(lista);
 }
