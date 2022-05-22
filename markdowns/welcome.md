@@ -27,7 +27,7 @@ void main() {
 }
 ```
 
-Constantes são variáveis que teráo seus valores fixos, ou seja não poderá ter seu valor mudado.  
+Constantes são variáveis que teráo seus valores fixos independente do tempo de compilação, ou seja não poderá ter seu valor mudado.  
 Observe que o código abaixo irá falar, pois tentei mudar o valor de myFloat mesmo ele sendo uma constante.
 
 ```dart runnable
@@ -40,6 +40,24 @@ void main() {
     var myVar = 1;
 
     print(myString);
+}
+```
+
+Além do "const" temos o "final", que trata uma variável como constante em tempo de compilação, antes do seu valor ser conhecido.
+o código abaixo não irá funcionar, pois estamos entrando com dados e o tech.io não é adequado para isso, copie e cole o techo desejado no replit.
+
+```dart runnable
+import 'dart:io';
+void main() {
+    
+    const String myString = "Hello World";
+    const int myNumber = 2;
+    const double myFloat = 2.5;
+    final entradaDoUsuario = stdin.readLineSync();
+    myFloat = 2.6;
+    var myVar = 1;
+
+    print(entradaDoUsuario);
 }
 ```
 
@@ -185,12 +203,25 @@ void main()
 ```
 ### Coleções em dart
 
+Coleções são tidas como estruturas de dados, alguns exemplos delas são: Listas, Maps e Sets.
+
+Listas
 ```dart runnable
 void main() {
     
-    const String myString = "Hello World";
-    var myVar = "Outra string";
+    List lista = ['Brazil', 'Argentina', 'Argélia']
     
-    print(myVar.runtimeType);
+    
+    print(lista);
+}
+```
+Para adicionar elementos em uma lista
+```dart runnable
+void main() {
+    
+    List lista = ['Brazil', 'Argentina', 'Argélia']
+    lista.add('China');
+    
+    print(lista);
 }
 ```
