@@ -132,7 +132,7 @@ import 'dart:io';
 void main() {
     
     stdout.write("Está chovendo? (s/N)");
-    bool estaChovendo = stdin.readLineSync();
+    String estaChovendo = stdin.readLineSync();
 
 }
 ```
