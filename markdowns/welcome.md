@@ -162,7 +162,7 @@ void main() {
    int? myInt;
 
    myInt = 2;
-   print(myInt);
+   print("myInt = $myInt");
    print(myString);
 }
 ```
