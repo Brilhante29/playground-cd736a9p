@@ -83,8 +83,13 @@ void main() {
     
 
     print(myVar);
+    print(myVar.lenght());
     print(myVar.toUpperCase());
+    print(myVar.substring(0, 4));
+    print(myVar.padRight());
     print(myDouble.roundToDouble());
+    print(myDouble.abs());
+
 }
 
 ```
