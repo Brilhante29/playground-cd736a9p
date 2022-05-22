@@ -261,3 +261,31 @@ void main() {
     print(lista.reversed);
 }
 ```
+
+Sets
+Os Sets são definidos como uma coleção não ordenada de objetos únicos. Para definir um conjunto siga o seguinte:
+Sets armazenam um grupo de objetos que não se repetem. As mesmas operações das listas estão disponíveis para eles.
+
+```dart runnable
+void main() {
+    
+    Set fruits = Set.from("Mango", "Apple", "Banana");
+    
+    print(fruits);
+}
+```
+
+Maps
+No Dart, os maps são coleções não ordenadas de pares de valores-chave que definem uma chave associada para os valores contidos. Para definir um mapa, especifique o tipo de chave e o tipo de valor dentro dos colchetes angulares (<>) conforme mostrado abaixo:
+
+
+```dart runnable
+void main() {
+    
+    Map<int, string> fruits = {1: "Mango", 2:"Apple", 3:"Banana"};
+   
+    print('Keys: ${geekMap.keys} \nValues: ${geekMap.values}');
+    
+    print(fruits);
+}
+```
