@@ -218,6 +218,7 @@ void main() {
     print(lista[0]);
 }
 ```
+
 Para adicionar elementos em uma lista utiliza-se a função .add(), de acordo com o exemplo abaixo.
 ```dart runnable
 void main() {
@@ -237,5 +238,26 @@ void main() {
     lista.removeAt(0);
     
     print(lista);
+}
+```
+
+Para remover elementos de uma lista pelo nome utiliza-se a função .remove(), de acordo com o exemplo abaixo.
+```dart runnable
+void main() {
+    
+    List lista = ['Brazil', 'Argentina', 'Argélia'];
+    lista.remove('Brazil');
+    
+    print(lista);
+}
+```
+
+Para inverter elementos de uma lista utiliza-se a função .reversed, de acordo com o exemplo abaixo.
+```dart runnable
+void main() {
+    
+    List lista = ['Brazil', 'Argentina', 'Argélia'];
+    
+    print(lista.reversed);
 }
 ```
