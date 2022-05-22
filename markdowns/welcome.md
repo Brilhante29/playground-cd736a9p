@@ -73,7 +73,7 @@ void main() {
 ```
 
 Em dart existem alguns métodos interessantes de se conhecer além do runtimeType. 
-São eles roundToDouble(), substring(arg0*, arg1*), toUpperCase(), padRight(), abs()
+São eles roundToDouble(), substring(arg0*, arg1*), toUpperCase(), abs()
 ```dart runnable
 void main() {
     
@@ -85,14 +85,56 @@ void main() {
     print(myVar);
     print(myVar.toUpperCase());
     print(myVar.substring(0, 4));
-    print(myVar.padRight(2, 'i'));
     print(myDouble.roundToDouble());
     print(myDouble.abs());
-
 }
-
 ```
 
+Vamos falar agora sobre operadores. Eles podem ser aritméticos ou lógicos.
+
+abaixo temos um exemplo de operadores aritméticos
+```dart runnable
+void main() {
+    
+    int x = 7;
+    int y = 3;
+    int resultado = x + y;
+    print(resultado);
+    print(x * y);
+    print(x - y);
+    print(x / y);
+    print(x % y);
+}
+```
+
+abaixo temos um exemplo de operadores lógicos
+```dart runnable
+void main() {
+    
+    bool fragil = true;
+    bool caro = false;
+
+    print(fragil && caro);
+    print(fragil || caro);
+    print(fragil ^ caro);
+    print(!fragil);
+
+    print(3<2);
+    print(3 == 2);
+    print(2 == 2);
+    print(2 <= 5);
+}
+```
+### Entrada de dados
+Algumas vezes pode ser preciso capturar os dados do usuário. Para tal, faremos da forma abaixo.
+```dart runnable
+void main() {
+    
+    stdout.write("Está chovendo? (s/N)");
+    bool estaChovendo = stdin.readLineSync() == "s";
+
+}
+```
 ### Coleções em dart
 
 ```dart runnable
