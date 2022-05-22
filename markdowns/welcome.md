@@ -156,6 +156,19 @@ void main() {
 }
 ```
 
+```dart runnable
+import 'dart:io';
+void main() {
+    
+   String? myString;
+   int? myInt;
+
+   myInt = 2;
+   print(myInt);
+   print(myString);
+}
+```
+
 ### Coleções em dart
 
 ```dart runnable
