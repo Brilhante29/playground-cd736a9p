@@ -128,10 +128,11 @@ void main() {
 ### Entrada de dados
 Algumas vezes pode ser preciso capturar os dados do usuário. Para tal, faremos da forma abaixo.
 ```dart runnable
+import 'dart:io';
 void main() {
     
     stdout.write("Está chovendo? (s/N)");
-    bool estaChovendo = stdin.readLineSync() == "s";
+    bool estaChovendo = stdin.readLineSync();
 
 }
 ```
