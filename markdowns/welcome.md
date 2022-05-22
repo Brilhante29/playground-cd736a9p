@@ -150,7 +150,7 @@ void main() {
    String? myString;
    int? myInt;
 
-   myInt = 2
+   myInt = 2;
    print(myInt);
 
 }
