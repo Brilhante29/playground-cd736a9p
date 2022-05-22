@@ -275,9 +275,8 @@ void main() {
 }
 ```
 
-Maps
+Maps ou JSON
 No Dart, os maps são coleções não ordenadas de pares de valores-chave que definem uma chave associada para os valores contidos. Para definir um mapa, especifique o tipo de chave e o tipo de valor dentro dos colchetes angulares (<>) conforme mostrado abaixo:
-
 
 ```dart runnable
 void main() {
@@ -287,5 +286,24 @@ void main() {
     print('Keys: ${fruits.keys} \nValues: ${fruits.values}');
     print('{$fruits} length is ${fruits.length}');
 
+}
+```
+
+Generics
+Em dart generics é algo amplamente utilizado quando lidamos com estruturas de dados como listas, maps, etc.
+
+```dart runnable
+void main() {
+    
+    List<int> fruits = [1,2,3,4,5]
+    print(fruits);
+}
+```
+
+```dart runnable
+void main() {
+    
+    List<int> fruits = [1,2,3,4,5, '1']
+    print(fruits);
 }
 ```
