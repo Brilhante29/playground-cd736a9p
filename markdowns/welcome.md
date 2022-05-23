@@ -201,8 +201,94 @@ void main()
     print("Sum is $sum");
 }
 ```
-### Coleções em dart
+### Estruturas de controle
+Estruturas de controle são artifícios das linguagens de programação para determinar qual bloco de código será executado a partir de uma determinada condição. No Dart, assim como em outras linguagens, podemos trabalhar com as estruturas de condição utilizando o if/else e o switch/case como veremos abaixo.
 
+if/else
+
+Como o próprio nome já diz, se(if) a condicional for verdadeira, irá executar aquele trecho e caso náo seja irá executar o else, de acordo com os exemplos abaixo 
+```dart runnable
+void main() {
+  var idade = 18;
+  if (idade < 18) {
+    print("Você é menor de idade");
+  }
+}
+```
+```dart runnable
+void main() {
+  var idade = 18;
+  if (idade < 18) {
+    print("Você é menor de idade");
+  } else {
+    print("Você é maior de idade");
+  }
+}
+```
+
+Além do if/else temos o swicth/case que é semelhante a primeira estrutura supracitada, porém mais elegante.
+
+```dart runnable
+void main() {
+  var opcao = 2;
+  switch (opcao) {
+      case 1:
+        print("Cadastrar");
+        break;
+      case 2:
+        print("Listar");
+        break;
+      default:
+        print("Sair");
+    }
+}
+```
+### Estruturas de repetição
+Estruturas de repetição são artifícios das linguagens de programação para executar um determinado bloco de código por uma certa quantidade de vezes, seja ela definida (utilizando o for) ou a partir de uma condição (utilizando o while).
+
+for
+A estrutura de repetição "for" executará um determinado bloco de código por um número definido de vezes. 
+
+```dart runnable
+void main() {
+  for (int numero = 1; numero <= 10; numero++){
+    if (numero % 2 == 0) {
+      print(numero);
+    }
+  }
+}
+```
+
+while
+O while é uma estrutura de repetição que permite executar um determinado bloco de código enquanto uma condição for verdadeira. É muito similar ao if, com a diferença que o bloco será executado enquanto a condição for verdadeira, e não se a condição for verdadeira.
+
+```dart runnable
+void main() {
+  var numero = 1;
+
+  while (numero <= 10) {
+    if (numero % 2 == 0) {
+      print(numero);
+    }
+  numero++;
+  }
+}
+```
+do/while
+```dart runnable
+void main() {
+  var numero = 1;
+  
+   do {
+    if (numero % 2 == 0) {
+      print(numero);
+    }
+    numero++;
+  } while (numero <= 10);
+}
+```
+
+### Coleções em dart
 Coleções são tidas como estruturas de dados, alguns exemplos delas são: Listas, Maps e Sets.
 
 Listas
@@ -299,7 +385,8 @@ void main() {
     print(fruits);
 }
 ```
-No exemplo abaixo o código não irá rodar, pois temos um elemento dentro da nossa lista de inteiros que é uma string e essa é a função do nosso generics "<int>"
+
+No exemplo abaixo o código não irá rodar, pois temos um elemento dentro da nossa lista de inteiros que é uma string e essa é a função do nosso generics "<>"
 ```dart runnable
 void main() {
     
@@ -307,3 +394,4 @@ void main() {
     print(fruits);
 }
 ```
+Isso pode ser aplicado para quaisquer estruturas. além de tipar a variável, caso ela seja uma estrutura tipamos seus elementos.
