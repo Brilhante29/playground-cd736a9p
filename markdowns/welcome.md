@@ -3,7 +3,7 @@
 Primeiro Hello World com Dart
 ```dart runnable
 void main() {
-    print("Hello world");
+  print("Hello world");
 }
 
 ```
@@ -392,6 +392,23 @@ void main() {
     
     List<int> fruits = [1,2,3,4,5, '1'];
     print(fruits);
+}
+```
+Isso pode ser aplicado para quaisquer estruturas. além de tipar a variável, caso ela seja uma estrutura tipamos seus elementos.
+
+### Funções
+
+Funções são blocos de código que possuem comandos ou regras de negócio dentro de si, que podem ou não retornar algo.
+Uma função pode ser invocada e por sua vez sua ação, ou seja, o bloco de código que ela possui, será executado.
+
+```dart runnable
+void main() {
+    
+    soma(2, 3);
+}
+
+void soma(int a, int b) {
+    print(a+b);
 }
 ```
 Isso pode ser aplicado para quaisquer estruturas. além de tipar a variável, caso ela seja uma estrutura tipamos seus elementos.
