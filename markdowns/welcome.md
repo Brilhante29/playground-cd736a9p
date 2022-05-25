@@ -246,8 +246,8 @@ void main() {
 ### Estruturas de repetição
 Estruturas de repetição são artifícios das linguagens de programação para executar um determinado bloco de código por uma certa quantidade de vezes, seja ela definida (utilizando o for) ou a partir de uma condição (utilizando o while).
 
-for
-A estrutura de repetição "for" executará um determinado bloco de código por um número definido de vezes. 
+
+O "for" é estrutura de repetição, que executará um determinado bloco de código por um número definido de vezes. 
 
 ```dart runnable
 void main() {
@@ -411,4 +411,18 @@ void soma(int a, int b) {
     print(a+b);
 }
 ```
-Isso pode ser aplicado para quaisquer estruturas. além de tipar a variável, caso ela seja uma estrutura tipamos seus elementos.
+perceba que a função soma será executada apenas quando for invocada.
+
+As funções possuem retornos também, ou seja, assim como uma certa variável pode ter um determinado tipo, uma função pode oberter o mesmo comportamento.
+Abaixo seguem os exemplos.
+
+```dart runnable
+void main() {
+    
+    soma(2, 3);
+}
+
+int soma(int a, int b) {
+    return (a+b);
+}
+```
