@@ -355,7 +355,7 @@ Sets armazenam um grupo de objetos que não se repetem. As mesmas operações da
 ```dart runnable
 void main() {
     
-    Set fruits = Set.from("Mango", "Apple", "Banana");
+    Set<String> fruits = Set.from("Mango", "Apple", "Banana");
     
     print(fruits);
 }
