@@ -468,6 +468,12 @@ Na programação estruturada, um programa é composto por três tipos básicos d
 
 - repetições: sequências que devem ser executadas repetidamente até uma condição for satisfeita (for, while, do-while etc)
 
+A programação orientada a objetos surgiu como uma alternativa a essas características da programação estruturada. O intuito da sua criação também foi o de aproximar o manuseio das estruturas de um programa ao manuseio das coisas do mundo real, daí o nome "objeto" como uma algo genérico, que pode representar qualquer coisa tangível.
+Esse novo paradigma se baseia principalmente em dois conceitos chave: classes e objetos. Todos os outros conceitos, igualmente importantes, são construídos em cima desses dois.
+
+## Classes
+
+Classes são uma forma de representarmos coisas do mundo real dentro do código. Eles podem ter atributos(características daquilo que queremos representar) e métodos(acões que a meu objeto vai fazer de acordo com suas carcterística).
 
 ```dart runnable
 void main() {
@@ -478,3 +484,6 @@ void main() {
 
     print(myNumber(2, 1));
 }
+
+
+```
