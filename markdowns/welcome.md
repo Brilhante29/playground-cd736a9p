@@ -475,7 +475,10 @@ Esse novo paradigma se baseia principalmente em dois conceitos chave: classes e 
 
 Classes são uma forma de representarmos coisas do mundo real dentro do código. Eles podem ter atributos(características daquilo que queremos representar) e métodos(acões que a meu objeto vai fazer de acordo com suas carcterística).
 
+Vejam o exemplo abaixo.
+
 ```dart runnable
+class Carro
 void main() {
 
     var myNumber = (int a, int b) {
@@ -484,6 +487,4 @@ void main() {
 
     print(myNumber(2, 1));
 }
-
-
 ```
