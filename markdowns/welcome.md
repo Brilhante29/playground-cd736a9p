@@ -478,13 +478,15 @@ Classes são uma forma de representarmos coisas do mundo real dentro do código.
 Vejam o exemplo abaixo.
 
 ```dart runnable
-class Carro
+class Carro {
+    String? marca;
+    int? ano;
+}
+
 void main() {
 
-    var myNumber = (int a, int b) {
-        return a + b;
-    };
-
-    print(myNumber(2, 1));
+   Carro carro = new Carro();
+    carro.marca = 'marca'
+    print(carro.marca);
 }
 ```
