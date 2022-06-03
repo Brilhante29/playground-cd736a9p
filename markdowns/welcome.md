@@ -460,7 +460,6 @@ Dessa forma é possível utilizar a palavra reservada "return" por meio da "=>" 
 ### Orientação a objetos
 Como a maioria das atividades que fazemos no dia a dia, programar também possui modos diferentes de se fazer. Esses modos são chamados de paradigmas de programação e, entre eles, estão a programação orientada a objetos (POO) e a programação estruturada.
 
-```
 Na programação estruturada, um programa é composto por três tipos básicos de estruturas:
  
 - sequências: são os comandos a serem executados
@@ -468,7 +467,7 @@ Na programação estruturada, um programa é composto por três tipos básicos d
 - condições: sequências que só devem ser executadas se uma condição for satisfeita (exemplos: if-else, switch e comandos parecidos)
 
 - repetições: sequências que devem ser executadas repetidamente até uma condição for satisfeita (for, while, do-while etc)
-```
+
 
 ```dart runnable
 void main() {
