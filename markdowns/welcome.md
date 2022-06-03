@@ -462,12 +462,12 @@ Como a maioria das atividades que fazemos no dia a dia, programar também possui
 
 ```
 Na programação estruturada, um programa é composto por três tipos básicos de estruturas:
+ 
+- sequências: são os comandos a serem executados
 
-sequências: são os comandos a serem executados
+- condições: sequências que só devem ser executadas se uma condição for satisfeita (exemplos: if-else, switch e comandos parecidos)
 
-condições: sequências que só devem ser executadas se uma condição for satisfeita (exemplos: if-else, switch e comandos parecidos)
-
-repetições: sequências que devem ser executadas repetidamente até uma condição for satisfeita (for, while, do-while etc)
+- repetições: sequências que devem ser executadas repetidamente até uma condição for satisfeita (for, while, do-while etc)
 ```
 
 ```dart runnable
