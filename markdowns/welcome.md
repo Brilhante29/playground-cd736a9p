@@ -486,7 +486,7 @@ class Carro {
 void main() {
 
    Carro carro = new Carro();
-    carro.marca = 'marca'
+    carro.marca = 'marca';
     print(carro.marca);
 }
 ```
