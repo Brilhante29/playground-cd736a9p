@@ -5,7 +5,6 @@ Primeiro Hello World com Dart
 void main() {
   print("Hello world");
 }
-
 ```
 
 # Aula 1
